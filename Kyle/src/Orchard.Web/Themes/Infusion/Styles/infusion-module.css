@@ -28,7 +28,7 @@ a.article-linkage { color: #595a5c; text-decoration: none; }
 a.rss-linkage:hover { margin-left: 5px; height: 58px; width: 235px; overflow: hidden; color: #4546f9; text-decoration: underline; }
 .dark-font { color: #595a5c; }
 .search-return-box { width: 312px; height: 219px; padding: 21px 0 0 23px; }
-    .search-return-box h3 { color: #fff; text-decoration: none; }
+    .search-return-box h3 { color: #fff; text-decoration: none; text-transform:uppercase; font-weight:bold; }
 .search-return-content { font-family: inherit; resize: none; overflow-y: scroll; overflow-x: hidden; padding: 5px 0 0 5px; width: 287px; height: 156px; background-color: #fff; -webkit-box-shadow: inset 5px 5px 23px -5px #333333; -moz-box-shadow: inset 5px 9px 39px -18px #333333; -o-box-shadow: inset 5px 5px 23px -5px #333333; -ms-box-shadow: inset 5px 5px 23px -5px #333333; box-shadow: inset 5px 5px 23px -5px #333333; }
 .bg-elevator-pitch { background-color: #f15c22; }
 .bg-pain-points { background-color: #dbd8db; }
