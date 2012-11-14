@@ -1,0 +1,138 @@
+2012-11-15 01:13:32,144 [42] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:32,442 [42] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:37,128 [14] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:37,541 [14] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:40,477 [56] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:40,760 [56] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:13:45,443 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:21:45,768 [20] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:22:54,184 [58] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:22:54,267 [58] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:22:54,682 [58] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:22:54,772 [58] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:23:11,641 [58] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:23:11,894 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:23:12,051 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:23:18,071 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:00,722 [47] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:07,937 [30] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:09,996 [20] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:29,292 [16] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:29,363 [16] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:30,301 [16] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)
+2012-11-15 01:24:32,393 [32] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Infusion.Documents.Handlers.DocumentContentPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Infusion.Documents.Handlers.DocumentContentPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass60.<GetItemMetadata>b__5f(IContentHandler handler)
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger)

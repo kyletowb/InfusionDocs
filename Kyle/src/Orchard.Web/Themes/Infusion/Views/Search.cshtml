@@ -1,0 +1,4 @@
+@using (Html.BeginForm("Find", "Document", new { area = "Infusion.Documents" }, FormMethod.Get, new { @class = "navbar-search nav-collapse pull-left" }))
+{
+    <input type="text" name="q" id="q" class="search-query" placeholder="" /><span class="nav-search-btn"><input type="submit" value="Search" /></span>
+}

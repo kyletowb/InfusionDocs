@@ -1,0 +1,6 @@
+Name: InfusionMobile
+Author: CloudMetal
+Description: Theme based on the popular jQuery mobile framework for smart phones and tablets.
+Version: 1.1.0
+Website: http://cloudmetal.com
+Zones: Header, Navigation, Messages, Content, AsideSecond, Footer

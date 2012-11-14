@@ -1,0 +1,134 @@
+﻿@{
+    /* Global includes for theme
+    ***************************************************************/
+
+    using (Script.Head())
+    { 
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    }
+    
+    	Script.Include("http://code.jquery.com/jquery-latest.min.js").AtHead();
+    	Script.Include("http://code.jquery.com/mobile/latest/jquery.mobile.min.js").AtHead();
+    	Script.Include("jquery.mobile.init.js").AtHead();
+	    Style.Include("http://code.jquery.com/mobile/latest/jquery.mobile.min.css");   
+        Style.Include("Infusion.css");
+        Style.Include("site.css");
+	    Style.Include("uniform.default.css");
+    	Style.Include("infusion-module.css");
+    	Style.Include("Themes/JQueryMobile/styles/font-awesome/jqm-icon-pack-2.1.2-fa.css");      
+    	Script.Include("content-row.js");		        
+        
+	    <script>(function (d) { d.className = "dyn" + d.className.substring(6, d.className.length); })(document.documentElement);</script> 
+        
+    /* Some useful shortcuts or settings
+    ***************************************************************/
+
+    Func<dynamic, dynamic> Zone = x => Display(x); // Zone as an alias for Display to help make it obvious when we're displaying zones
+
+    /* Get image path for images
+    ***************************************************************/
+    var ImgPath = Url.Content("~/Themes/InfusionMobile/Content/Images/");
+    
+    /* Prep the layout wrapper
+    ***************************************************************/
+
+    Model.Id = "layout";
+    Model.Attributes.Add("data-role", "page");
+
+    // Set jqm swatch (a, b, c, d, e)
+    string theme = "a";
+    Model.Attributes.Add("data-theme", theme);
+
+    var tag = Tag(Model, "div"); // using Tag so layout div gets the classes, id and other Model attributes
+}
+
+@tag.StartElement
+
+<header data-role="header" data-theme="@theme">
+    @*@Display(New.Branding())
+	<h1>@Layout.Title</h1>*@
+
+	@Zone(Model.Header)
+    <div id="nav-bar-top">	
+        <a href="/">SUNGARD(R)</a>
+
+
+    @if (WorkContext.CurrentUser != null) {
+        dynamic user = WorkContext.CurrentUser.ContentItem;
+        List<string> roles = user.UserRolesPart.Roles;
+        <a href="#nav-menu" id="nav-menu-btn" data-rel="popup" data-role="button" data-theme="none" data-theme-overlay="none"><img src="@(ImgPath + "nav-icon.png")" alt="Menu"></a>
+        <ul id="nav-menu" data-role="popup" data-theme="none" data-theme-overlay="none">
+        @Display(Model.Navigation)
+        <li>@Html.ActionLink(T("Change Password").ToString(), "ChangePassword", new { Controller = "Account", Area = "Orchard.Users" })</li>
+        <li>@Html.ActionLink(T("Sign Out").ToString(), "LogOff", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Context.Request.RawUrl })</li>
+        @if (AuthorizedFor(Orchard.Security.StandardPermissions.AccessAdminPanel)) {
+            <li class="divider"></li>
+            <li>@Html.ActionLink(T("Dashboard").ToString(), "Index", new { Area = "Dashboard", Controller = "Admin" })</li>
+        }
+        </ul>
+    } else {
+        @Html.ActionLink(T("Sign In").ToString(), "LogOn", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = (Request.QueryString["ReturnUrl"] ?? Request.RawUrl) }, new { @id = "nav-menu-btn" })
+    }
+    </div>
+
+
+ @*   @if (Model.Navigation != null) {
+        <div id="navigation" data-role="navbar">        
+            @Zone(Model.Navigation)
+        </div>
+    } *@  
+@using (Html.BeginForm("Find", "Document", new { area = "Infusion.Documents" }, FormMethod.Get, new { @class = "navbar-search" }))
+{
+        <label>WHAT DO YOU NEED?</label>
+        <input type="search" name="q" id="search-mini" data-mini="true" value="">
+    }
+</header><!-- /header -->
+
+<div data-role="content">
+    
+    @if (Model.Messages != null) {
+        <div id="messages">
+            @Zone(Model.Messages)
+        </div>
+    }
+    @if (Model.Content != null) {
+        <div id="content" data-role="content">	
+	        @Zone(Model.Content)	
+			@if (Model.AsideSecond != null) {
+			<aside id="aside-second" class="aside-second">
+				@Zone(Model.AsideSecond)
+			</aside>
+			}
+        </div>
+    }
+</div><!-- /content -->
+
+<footer id="footer" data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="none">
+    @* @if (Model.Footer != null)
+    {
+	    @Zone(Model.Footer)	
+    }
+	@Display(New.BadgeOfHonor())
+	@Display(New.User()) *@
+    <div data-role="popup" id="comment-popup" data-position-to="window" class="ui-content">
+        <form>
+            Add Comment:
+            <textarea> </textarea>
+            Add Rating:
+            <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+    <a href="#comment-popup" data-rel="popup" data-role="button" data-theme="none" data-theme-overlay="none"><img src="@(ImgPath + "comment-icon.png")" alt="Comment"></a>
+    <div data-role="popup" id="message-popup" data-position-to="window" class="ui-content">
+        Message
+    </div>
+    <a href="#message-popup" data-rel="popup" data-role="button" data-theme="none" data-theme-overlay="none"><img src="@(ImgPath + "message-icon.png")" alt="Message"></a>
+    <!--<a href="/"><img id="its-on-msg-mob" src="@(ImgPath + "ItsOnMessageMobile.png")" alt="It's On"></a>-->
+
+    <img id="its-on-msg-mob" src="@(ImgPath + "ItsOnMessageMobile.png")" alt="It's On">
+</footer><!-- /footer -->
+@tag.EndElement    

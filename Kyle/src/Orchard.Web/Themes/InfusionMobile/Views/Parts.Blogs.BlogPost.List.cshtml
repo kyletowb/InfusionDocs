@@ -1,0 +1,12 @@
+﻿@{
+    IEnumerable<object> blogPosts = Model.ContentItems;
+    Model.ContentItems.Classes.Add("content-items");
+    Model.ContentItems.Classes.Add("blog-posts");
+    Model.ContentItems.Attributes.Add("data-role", "listview");
+    Model.ContentItems.Attributes.Add("data-inset", "true");
+    Model.ContentItems.Attributes.Add("data-split-icon", "edit");
+}
+@Display(Model.ContentItems)
+@if (blogPosts == null || blogPosts.Count() < 1) {
+<p>@T("There are no posts for this blog.")</p>
+}
